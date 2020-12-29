@@ -24,15 +24,10 @@ brew install zsh
 chsh -s zsh
 ```
 
-### 4. Install `zplug`
-```
-curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
-```
-- [Github page of zplug](https://github.com/zplug/zplug)
+### 4. Clone dotfiles
 
-### 5. Clone dotfiles to home directory
-
-### 6. Load `zsh` plugins and shell settings
+### 5. Install `zplug`, load `zsh` plugins, and setup shell settings
 ```
 source .zshrc
 ```
+- [Github page of zplug](https://github.com/zplug/zplug)
