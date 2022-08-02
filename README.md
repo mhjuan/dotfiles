@@ -30,7 +30,7 @@ chsh -s zsh
 ### 5. Install `zplug`, load `zsh` plugins, and setup shell settings
 - For macOS, `brew install coreutils` first.
     - Required at least for colored `ls` to work.
-    - Remember to add `export PATH='$(brew --prefix)/opt/coreutils/libexec/gnubin:$PATH'"` to `.zshrc` file.
+    - Remember to add `export PATH="$(brew --prefix)/opt/coreutils/libexec/gnubin:$PATH"` to `.zshrc` file.
 - Do
     ```
     source .zshrc
