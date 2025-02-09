@@ -39,6 +39,7 @@ zplug "zsh-users/zsh-completions", use:"*.plugin.zsh"
 zplug "so-fancy/diff-so-fancy", as:command, use:diff-so-fancy
 zplug "zsh-users/zsh-syntax-highlighting", use:"*.plugin.zsh", defer:3
 zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-autosuggestions"
 
 export ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 
@@ -179,3 +180,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 # default: --
 zstyle ':completion:*' list-separator '-->'
 zstyle ':completion:*:manuals' separate-sections true
+
+#############################
+# Local settings
+#############################
